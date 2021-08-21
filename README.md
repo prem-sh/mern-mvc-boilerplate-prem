@@ -4,12 +4,37 @@
 
     royalspade-studio
         |
-        +--**app.js**
+        +--app.js
+        +--models
+        |   |
+        |   +models.js
         |
-        +--**models**
+        +--views
+        |   |
+        |   +--build
+        |   |   |
+        |   |   +~~(webpack builds)
+        |   |
+        |   +--src
+        |   |   |
+        |   |   +--components
+        |   |   +--images
+        |   |   +--app.js
+        |   |   +--app.css
+        |   |   +--app.scss
+        |   |
+        |   +--public
+        |       |
+        |       +--index.html
+        |       +--favicon.svg
         |
-        +--**views**
-                |
-                +--**dist**
-                |
-                +--
+        +--controllers
+        |   |
+        |   +--controllers.js
+        |
+        +--core        
+            |
+            +--appHelper.js
+            +--databaseHelper.js
+            +--controllerHelper.js
+            +--viewsHelper.js
