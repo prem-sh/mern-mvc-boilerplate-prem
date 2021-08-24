@@ -3,38 +3,24 @@
 ## Directory Structure
 
     royalspade-studio
-        |
-        +--app.js
-        +--models
-        |   |
-        |   +models.js
-        |
-        +--views
-        |   |
-        |   +--build
-        |   |   |
-        |   |   +~~(webpack builds)
-        |   |
-        |   +--src
-        |   |   |
-        |   |   +--components
-        |   |   +--images
-        |   |   +--app.js
-        |   |   +--app.css
-        |   |   +--app.scss
-        |   |
-        |   +--public
-        |       |
-        |       +--index.html
-        |       +--favicon.svg
-        |
-        +--controllers
-        |   |
-        |   +--controllers.js
-        |
-        +--core        
-            |
-            +--appHelper.js
-            +--databaseHelper.js
-            +--controllerHelper.js
-            +--viewsHelper.js
+        ├── app.js
+        ├── controllers
+        │   └── route.js
+        ├── package.json
+        ├── package-lock.json
+        ├── README.md
+        ├── views
+        │   ├── build
+        │   │   ├── bundle.js
+        │   │   └── index.html
+        │   ├── public
+        │   │   ├── images
+        │   │   └── index.html
+        │   └── src
+        │       ├── comopnents
+        │       │   └── App.js
+        │       ├── css
+        │       ├── html
+        │       ├── index.js
+        │       └── scss
+        └── webpack.config.js
