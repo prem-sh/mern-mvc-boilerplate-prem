@@ -1,12 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import App from './comopnents/App';
 
-const HelloWorld = () => {
-    return (
-        <h1>
-            Hello World
-        </h1>
-    );
-}
-//hi
-ReactDOM.render(<HelloWorld />, document.getElementById("index"));
+ReactDOM.render(<App message = {"This is root"}/>, document.getElementById('root'));
