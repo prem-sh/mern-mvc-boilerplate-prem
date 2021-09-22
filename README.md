@@ -1,8 +1,8 @@
-# Royalspade Studio (Website)
+# MERN template
 ---
 ## Directory Structure
 
-    royalspade-studio
+    Project
         ├── app.js
         ├── controllers
         │   └── route.js
